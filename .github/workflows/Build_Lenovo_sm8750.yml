@@ -451,4 +451,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
          name: Boot_${{ env.KSUVER }}_${{ env.sub_level }}_SuKiSU_AOSP_Signed
-         path: kernel_workspace/boot_avb_tool/AOSP_REBUILD_AVB_BOOT-main/boot.img
+         path: kernel_workspace/boot_avb_tool/AOSP-Testkey-BootSigner-main/boot.img
